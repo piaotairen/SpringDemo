@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+#import "MyView.h"
+@interface ViewController : UIViewController{
+    
+    CADisplayLink * displayLink;
+    MyView *view;
+}
 
 @end

@@ -18,6 +18,8 @@
 		5F7E85F6175D8B7200B87AEC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F7E85F5175D8B7200B87AEC /* Default-568h@2x.png */; };
 		5F7E85F9175D8B7200B87AEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7E85F8175D8B7200B87AEC /* ViewController.m */; };
 		5F7E85FC175D8B7200B87AEC /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F7E85FA175D8B7200B87AEC /* ViewController.xib */; };
+		5F7E8604175D8C5600B87AEC /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7E8603175D8C5600B87AEC /* MyView.m */; };
+		5F7E8607175D8F6900B87AEC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F7E8605175D8F5C00B87AEC /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,9 @@
 		5F7E85F7175D8B7200B87AEC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5F7E85F8175D8B7200B87AEC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5F7E85FB175D8B7200B87AEC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		5F7E8602175D8C5600B87AEC /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		5F7E8603175D8C5600B87AEC /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+		5F7E8605175D8F5C00B87AEC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F7E8607175D8F6900B87AEC /* QuartzCore.framework in Frameworks */,
 				5F7E85E0175D8B7200B87AEC /* UIKit.framework in Frameworks */,
 				5F7E85E2175D8B7200B87AEC /* Foundation.framework in Frameworks */,
 				5F7E85E4175D8B7200B87AEC /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +79,7 @@
 		5F7E85DE175D8B7200B87AEC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5F7E8605175D8F5C00B87AEC /* QuartzCore.framework */,
 				5F7E85DF175D8B7200B87AEC /* UIKit.framework */,
 				5F7E85E1175D8B7200B87AEC /* Foundation.framework */,
 				5F7E85E3175D8B7200B87AEC /* CoreGraphics.framework */,
@@ -89,6 +96,8 @@
 				5F7E85F8175D8B7200B87AEC /* ViewController.m */,
 				5F7E85FA175D8B7200B87AEC /* ViewController.xib */,
 				5F7E85E6175D8B7200B87AEC /* Supporting Files */,
+				5F7E8602175D8C5600B87AEC /* MyView.h */,
+				5F7E8603175D8C5600B87AEC /* MyView.m */,
 			);
 			path = SpringDemo;
 			sourceTree = "<group>";
@@ -176,6 +185,7 @@
 				5F7E85EC175D8B7200B87AEC /* main.m in Sources */,
 				5F7E85F0175D8B7200B87AEC /* AppDelegate.m in Sources */,
 				5F7E85F9175D8B7200B87AEC /* ViewController.m in Sources */,
+				5F7E8604175D8C5600B87AEC /* MyView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
